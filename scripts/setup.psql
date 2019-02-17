@@ -1,0 +1,8 @@
+-- connect to a pre-existing database
+\c hackerbox_test_db
+
+-- create a table
+create table people (id serial NOT NULL PRIMARY KEY, forename varchar(40), surname varchar(40));
+
+-- add some data
+insert into people (forename, surname) values ('Alan', 'Turing');
