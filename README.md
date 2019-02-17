@@ -2,7 +2,7 @@
 
 ## Purpose ##
 
-I made this project as part of a very basic tutorial on how to run Postgres inside a Docker container.
+I made this project as part of a [very basic tutorial](https://hackerbox.io/articles/postgres-docker-setup/) on how to run Postgres inside a Docker container.
 
 Database setup is achieved using a script that is first passed into the Postgres container using a volume.
 
